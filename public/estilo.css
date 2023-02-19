@@ -1,0 +1,306 @@
+.navbar {
+  transition: all 0.4s;
+  font: normal normal normal 18px/36px Bahnschrift;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color:  #dddddd;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0);
+}
+.logoLosper {
+  position: relative;
+  max-width: 300px;
+  max-height: 100%;
+  /* max-height: 100%; */
+
+  /* margin-right: 200px; */
+}
+.navbar-nav {
+  margin-right: 100px;
+}
+.contactoHead {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #707070 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.fa-whatsapp {
+  color: aliceblue;
+  margin-right: 6px;
+}
+.fa-envelope {
+  color: aliceblue;
+  margin-right: 6px;
+  
+}
+.fa-map-marker-alt {
+  color: aliceblue;
+  margin-right: 6px;
+}
+.sectionHomeText{
+  font-family: bahnschrift;
+}
+
+.numeroWhatsapp {
+  color: aliceblue;
+  font: normal normal normal 14px/36px Bahnschrift;
+  text-decoration: none;
+}
+.contenedorBanner {
+  position: relative;
+}
+.imgBanner {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.bodyP {
+  font-family: bahnschrift;
+  font-size: 26px;
+}
+.bodyApp {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+.bg-cyan{
+  background-color: #1a9dd9 ;
+}
+.bodyBanner {
+  background-color: #1a9dd9;
+  max-width: 100%;
+  min-height: 45vh;
+  position: relative;
+  margin: 0px;
+  padding: 24px;
+}
+.sectionHome {
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+.imgSectionHome {
+  background: url("img/sectionProduct.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+  width: 100%;
+}
+.sectionHomeContentList {
+  font-size: 30px;
+}
+.sectionHomeContentTitle {
+  font-size: 60px;
+}
+.sectionHomeContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffff;
+  font-family: bahnschrift;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.sectionHomeContent > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+.sectionHomeContent:hover {
+  opacity: 1;
+}
+.sectionHomeContent:hover > * {
+  transform: translateY(0);
+}
+.imgSectionProductHome {
+  justify-self: center !important;
+}
+.logoSecction {
+  width: 70%;
+}
+.row {
+  margin-left: 0px !important;
+}
+.imgBodyBanner {
+  max-width: 100%;
+  height: 400px;
+  position: relative;
+}
+.imgGarrafas {
+  /* position: absolute; */
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.parrafBanner {
+  color: rgb(22, 22, 22);
+  font: normal normal normal 20px/36px Bahnschrift;
+}
+.textBodyBanner {
+  color: aliceblue;
+  font: normal normal normal 35px/36px Bahnschrift;
+}
+.consultaTitle {
+  font-family: bahnschrift;
+  font-size: 50px;
+  color: #1a9dd9;
+}
+#formulario {
+  font-family: bahnschrift;
+}
+.productContainer {
+  display: flex;
+}
+
+.img45Container {
+  position: relative;
+  width: 320px;
+  height: 100%;
+}
+.img45kg {
+  display: block;
+  width: 75%;
+}
+.img15kg {
+  display: block;
+  width: 100%;
+}
+.img10kg {
+  display: block;
+  width: 100%;
+}
+.imgOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffff;
+  font-family: bahnschrift;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.imgOverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+.imgOverlay:hover {
+  opacity: 1;
+}
+.imgOverlay:hover > * {
+  transform: translateY(0);
+}
+.img45Title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.img45Parraf {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.titleProducts {
+  display: block;
+  background-color: #1a9dd9;
+  height: 7em;
+  align-items: center;
+  justify-content: center;
+}
+.textTitleProducts {
+  position: relative;
+  color: aliceblue;
+  font-family: bahnschrift;
+}
+
+.mapsIframe {
+  padding-top: 70px;
+  width: 100%;
+  padding-bottom: 80px;
+}
+.nav-link{
+  text-decoration: none !important;
+}
+A:link {text-decoration: none }
+A:hover { color: black; font-family: bahnschrift; text-decoration: none }
+A:visited {color: black;  font-family: bahnschrift; text-decoration: none }
+	*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: none !important;outline: none !important;}
+
+.alcanceImg {
+  max-width: 100%;
+  height: 25rem;
+}
+.empresaHistoria {
+  font: normal normal normal 18px/36px Bahnschrift;
+}
+.visionContainer {
+  background-color: #1a9dd9;
+}
+.visionTitle {
+  font-family: bahnschrift;
+  font-size: 50px;
+  color: aliceblue;
+}
+.empresaVision {
+  font: normal normal normal 18px/36px Bahnschrift;
+}
+.misionTitle {
+  font-family: bahnschrift;
+  font-size: 50px;
+  color: #1a9dd9;
+}
+.imgSectionEmpresa {
+  background: url("img/camionGarrafa.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    margin-right: 12px;
+  }
+  .logoSecctionContainer {
+    display: none;
+  }
+  .logoLosper {
+    max-height: 70px;
+    max-width: 25rem;
+  }
+  .productContainer {
+    display: inline;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .productContainerChild {
+    flex: 0 0 auto;
+    width: 50% !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .productContainerChild {
+    flex: 0 0 auto;
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .productContainer {
+    display: inline;
+  }
+}
