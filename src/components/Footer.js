@@ -13,6 +13,11 @@ export const Footer = () => {
             </div>
   
             <div className="col-xs-6 col-md-3">
+              
+            </div>
+  
+            <div className="col-xs-6 col-md-3">
+              {/* <h6>Quick Links</h6> */}
               <h6>Empresa</h6>
               <ul className="footer-links">
                 <li><a href="http://scanfcode.com/category/c-language/">Acerca de nosotros</a></li>
@@ -20,17 +25,6 @@ export const Footer = () => {
                 <li><a href="http://scanfcode.com/category/back-end-development/">Cobertura geográfica</a></li>
                 <li><a href="http://scanfcode.com/category/java-programming-language/">Visión</a></li>
                 
-              </ul>
-            </div>
-  
-            <div className="col-xs-6 col-md-3">
-              <h6>Quick Links</h6>
-              <ul className="footer-links">
-                <li><a href="http://scanfcode.com/about/">About Us</a></li>
-                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
               </ul>
             </div>
           </div>
@@ -46,9 +40,9 @@ export const Footer = () => {
   
             <div className="col-md-4 col-sm-6 col-xs-12">
               <ul className="social-icons">
-                <li><a className="facebook" href="/"><i className="fa fa-facebook"></i></a></li>
+                <li><a className="facebook" href="https://www.facebook.com/losperypfgas"><i className="fa fa-facebook"></i></a></li>
                
-                <li><a className="dribbble" href="/"><i className="fa fa-instagram"></i></a></li>
+                <li><a className="dribbble" href="https://www.instagram.com/ypfgaslosper/"><i className="fa fa-instagram"></i></a></li>
                 <li><a className="linkedin" href="/"><i className="fa fa-linkedin"></i></a></li>   
               </ul>
             </div>

@@ -12,34 +12,35 @@ export const Carroussell = () => {
     <div className="carousel-inner">
       <div className="carousel-item active">
         {/* <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> */}
-        <img src="./img/carrousell.png" className="d-block w-100" alt="..."></img>
+        <img src="./img/carrousellTres.png" className="d-block w-100" alt="..."></img>
         <div className="container">
-          <div className="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a className="btn btn-lg btn-primary" href="/">Sign up today</a></p>
+          <div className="carousel-caption text-start" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#1a9dd9", backgroudColor: "lightblue"}}>
+            <h1  >Atencion personalizada</h1>
+            {/* <p>Some representative placeholder content for the first slide of the carousel.</p> */}
+            <p><a className="btn btn-light" href="/">Contactanos</a></p>
           </div>
         </div>
       </div>
       <div className="carousel-item">
         {/* <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> */}
-        <img src="./img/carrousellDos.png" className="d-block w-100" alt="..."></img>
+        <img src="./img/carrousellSeis.png" className="d-block w-100" alt="..."></img>
         <div className="container">
-          <div className="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a className="btn btn-lg btn-primary" href="/">Learn more</a></p>
+        <div className="carousel-caption" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#FFFFFF", backgroudColor: "lightblue"}}>
+            <h1  >Entrega a domicilio</h1>
+            {/* <p>Some representative placeholder content for the first slide of the carousel.</p> */}
+            <p><a className="btn btn-light" href="/">Contactanos</a></p>
           </div>
         </div>
       </div>
       <div className="carousel-item">
-        <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+      <img src="./img/carrousellCinco.png" className="d-block w-100" alt="..."></img>
 
         <div className="container">
-          <div className="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a className="btn btn-lg btn-primary" href="/">Browse gallery</a></p>
+        <div className="carousel-caption d-flex justify-content-end" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#1a9dd9"}}>
+            <h1 style={{backgroundColor: "rgba(0, 0, 0, 0.5)"}} >Productos de calidad</h1>
+            {/* <p>Some representative placeholder content for the first slide of the carousel.</p> */}
+            <br></br>
+            <p><a className="btn btn-light" href="/">Contactanos</a></p>
           </div>
         </div>
       </div>

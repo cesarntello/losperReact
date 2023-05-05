@@ -53,13 +53,13 @@ export const Navbar = () => {
                         <a className="nav-link text-dark " href="/" ><Link to='/'>Home</Link></a>
                     </li>
                     <li>
-                        <a className="nav-link text-dark" href="./views/empresa.html">Empresa</a>
+                        <a className="nav-link text-dark" href="."><Link to='/empresa'>Empresa</Link></a>
                     </li>
                     <li>
-                        <a className="nav-link text-dark"   id='scroll-btn'>Productos</a>
+                        <a className="nav-link text-dark"   id='scroll-btn' >Productos</a>
                     </li>
                     <li>
-                        <a className="nav-link text-dark " href="./views/alcance.html">Alcance</a>
+                        <a className="nav-link text-dark " href="./views/alcance.html"><Link to='/alcance'>Alcance</Link></a>
                     </li>
                     <li>
                         <a className="nav-link text-dark" href="./views/contacto.html"><Link to='/formulario'>Contacto</Link></a>
