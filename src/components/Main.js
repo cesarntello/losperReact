@@ -2,7 +2,8 @@ import React, { useEffect, useRef } from 'react'
 import { Carroussell } from './Carroussell'
 import { Section } from './Section'
 import { Products } from './Products'
-
+import {Form} from './Form'
+import {Video} from './Video'
 export const Main = () => {
 
 const styleMain = {
@@ -28,10 +29,12 @@ useEffect(() => {
     <div >
       <div style={styleMain}>
         <Section />
-        <Carroussell/>
+        <Video />
+        {/* <Carroussell/> */}
         <div ref={containerRef}>
           <Products />
         </div>
+        <Form/>
        </div>
     </div>
   )

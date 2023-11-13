@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+.sectionHome {
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+.imgSectionEmpresa {
+  background: url("img/garrafasPuerta.png");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+  width: 100%;
+}
+.sectionHomeContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffff;
+  font-family: bahnschrift;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.sectionHomeContentTitle {
+  font-size: 60px;
+}
+.sectionHomeContentList {
+  font-size: 30px;
+}
+a{
+  color:#282c34;
+}

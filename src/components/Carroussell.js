@@ -1,6 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 export const Carroussell = () => {
+
+const styleh1 = { 
+  background: 'rgba(255, 255, 255, 0.6)', /* Establece el color de fondo con transparencia */
+  backdropFilter: 'blur(5px)', /* Aplica el efecto de difuminado */
+  padding: '10px', /* Añade algo de espacio alrededor del texto para mayor legibilidad */
+  borderRadius: '10px', /* Agrega bordes redondeados para que se vea más atractivo */
+  fontSize: "40px",
+  display: 'inline'
+}
+
   return (
     <div>
           <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
@@ -14,33 +25,33 @@ export const Carroussell = () => {
         {/* <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> */}
         <img src="./img/carrousellTres.png" className="d-block w-100" alt="..."></img>
         <div className="container">
-          <div className="carousel-caption text-start" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#1a9dd9", backgroudColor: "lightblue"}}>
-            <h1  >Atencion personalizada</h1>
+          <div className="carousel-caption text-start" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#282c34", backgroudColor: "lightblue"}}>
+            <h1 className="blurred-background" style={styleh1}  >Atención personalizada</h1>
             {/* <p>Some representative placeholder content for the first slide of the carousel.</p> */}
-            <p><a className="btn btn-light" href="/">Contactanos</a></p>
+            <p><Link to='/formulario'><a className="btn btn-light" href="/">Contactanos</a></Link></p>
           </div>
         </div>
       </div>
       <div className="carousel-item">
         {/* <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> */}
-        <img src="./img/carrousellSeis.png" className="d-block w-100" alt="..."></img>
+        <img src="./img/carrousellDiez.png" className="d-block w-100" alt="..."></img>
         <div className="container">
-        <div className="carousel-caption" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#FFFFFF", backgroudColor: "lightblue"}}>
-            <h1  >Entrega a domicilio</h1>
+        <div className="carousel-caption" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#282c34", backgroudColor: "lightblue"}}>
+            <h1 style={styleh1}  >Entrega a domicilio</h1>
             {/* <p>Some representative placeholder content for the first slide of the carousel.</p> */}
-            <p><a className="btn btn-light" href="/">Contactanos</a></p>
+            <p><Link to='/formulario'><a className="btn btn-light" href="/">Contactanos</a></Link></p>
           </div>
         </div>
       </div>
       <div className="carousel-item">
-      <img src="./img/carrousellCinco.png" className="d-block w-100" alt="..."></img>
+      <img src="./img/carrousellSiete.png" className="d-block w-100" alt="..."></img>
 
         <div className="container">
-        <div className="carousel-caption d-flex justify-content-end" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#1a9dd9"}}>
-            <h1 style={{backgroundColor: "rgba(0, 0, 0, 0.5)"}} >Productos de calidad</h1>
+        <div className="carousel-caption text-end" style={{fontSize: "50px", fontFamily: "bahnschrift", color: "#1a9dd9", backgroudColor: "lightblue" }}>
+            <h1 style={styleh1}  >Productos de calidad</h1>
             {/* <p>Some representative placeholder content for the first slide of the carousel.</p> */}
-            <br></br>
-            <p><a className="btn btn-light" href="/">Contactanos</a></p>
+            
+            <p><Link to='/formulario'><a className="btn btn-light" href="/">Contactanos</a></Link></p>
           </div>
         </div>
       </div>

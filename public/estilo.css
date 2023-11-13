@@ -266,12 +266,17 @@ A:visited {color: black;  font-family: bahnschrift; text-decoration: none }
   color: #1a9dd9;
 }
 .imgSectionEmpresa {
-  background: url("img/camionGarrafa.jpg");
+  background: url("img/garrafasPuerta.png");
   background-size: cover;
   background-attachment: fixed;
   min-height: 100%;
   width: 100%;
 }
+.fw-normal{
+  font-size: 25px;
+}
+
+
 @media only screen and (max-width: 768px) {
   .navbar-nav {
     margin-right: 12px;
@@ -302,5 +307,26 @@ A:visited {color: black;  font-family: bahnschrift; text-decoration: none }
 @media only screen and (max-width: 500px) {
   .productContainer {
     display: inline;
+  }
+  .imgInfo{
+    display: none;
+  }
+  .sectionHomeContentList{
+    font-size: 16px;
+  }
+  .sectionHomeContentTitle{
+    font-size: 40px;
+  }
+  .consultaTitle{
+    font-size: 25px;
+  }
+  .contactoFooter{
+    display: none;
+  }
+}
+@media only screen and (min-width: 501px) {
+  
+  .imgInfoAlta{
+    display: none;
   }
 }
